@@ -1,0 +1,49 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Suite</th></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">12</td><td class="num">0</td><td class="num">0</td><td class="num attn">4</td><td class="num">391,357</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">testcases.CheckinTest</td><td><a href="#m0">SearchBookingOperation</a></td><td rowspan="1">1681723797975</td><td rowspan="1">1700</td></tr><tr class="failedodd"><td rowspan="1">testcases.ManageBookingTest</td><td><a href="#m1">ManageBookingOperation</a></td><td rowspan="1">1681723784728</td><td rowspan="1">2015</td></tr><tr class="failedeven"><td rowspan="1">testcases.OnewayTripTest</td><td><a href="#m2">OnewayFamilyFriends</a></td><td rowspan="1">1681723465396</td><td rowspan="1">40853</td></tr><tr class="failedodd"><td rowspan="1">testcases.RoundTripTest</td><td><a href="#m3">RoundTripFamilyFriends</a></td><td rowspan="1">1681723539203</td><td rowspan="1">47057</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">testcases.FlightStatusTest</td><td><a href="#m4">SearchFlightOperation</a></td><td rowspan="1">1681723810428</td><td rowspan="1">34132</td></tr><tr class="passedodd"><td rowspan="8">testcases.LoginTest</td><td><a href="#m5">LoginwithInvalidCredentials1</a></td><td rowspan="1">1681723719521</td><td rowspan="1">1529</td></tr><tr class="passedodd"><td><a href="#m6">LoginwithInvalidEmail</a></td><td rowspan="1">1681723704894</td><td rowspan="1">3029</td></tr><tr class="passedodd"><td><a href="#m7">LoginwithInvalidMobileCredentials1</a></td><td rowspan="1">1681723773588</td><td rowspan="1">1184</td></tr><tr class="passedodd"><td><a href="#m8">LoginwithInvalidMobilenumber</a></td><td rowspan="1">1681723759069</td><td rowspan="1">1215</td></tr><tr class="passedodd"><td><a href="#m9">LoginwithInvalidPassword</a></td><td rowspan="1">1681723693825</td><td rowspan="1">1403</td></tr><tr class="passedodd"><td><a href="#m10">LoginwithMobileInvalidPassword</a></td><td rowspan="1">1681723747077</td><td rowspan="1">1170</td></tr><tr class="passedodd"><td><a href="#m11">LoginwithValidCredentials1</a></td><td rowspan="1">1681723664867</td><td rowspan="1">5637</td></tr><tr class="passedodd"><td><a href="#m12">LoginwithValidMobileCredentials1</a></td><td rowspan="1">1681723731526</td><td rowspan="1">4445</td></tr><tr class="passedeven"><td rowspan="1">testcases.OnewayTripTest</td><td><a href="#m13">OnewayStudents</a></td><td rowspan="1">1681723518561</td><td rowspan="1">8963</td></tr><tr class="passedodd"><td rowspan="1">testcases.RoundTripTest</td><td><a href="#m14">RoundTripStudents</a></td><td rowspan="1">1681723599307</td><td rowspan="1">9294</td></tr><tr class="passedeven"><td rowspan="1">testcases.SignupTest</td><td><a href="#m15">Signup</a></td><td rowspan="1">1681723619054</td><td rowspan="1">35378</td></tr></tbody>
+</table>
+<h2>Test</h2><h3 id="m0">testcases.CheckinTest#SearchBookingOperation</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [Valid PNR or Ticket Number] but found [Invalid PNR or Ticket Number]
+	at pageObjects.CheckinPage.SearchBooking(CheckinPage.java:36)
+	at testcases.CheckinTest.SearchBookingOperation(CheckinTest.java:15)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 35 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">testcases.ManageBookingTest#ManageBookingOperation</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [Valid PNR or Ticket Number] but found [Invalid PNR or Ticket Number]
+	at pageObjects.ManageBookingPage.SearchBooking(ManageBookingPage.java:36)
+	at testcases.ManageBookingTest.ManageBookingOperation(ManageBookingTest.java:15)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 35 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">testcases.OnewayTripTest#OnewayFamilyFriends</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [valid card] but found [Please enter a valid card]
+	at pageObjects.OnewayTripPage.enterpaymentdetail(OnewayTripPage.java:409)
+	at testcases.OnewayTripTest.OnewayFamilyFriends(OnewayTripTest.java:33)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 35 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">testcases.RoundTripTest#RoundTripFamilyFriends</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [ valid card] but found [Please enter a valid card]
+	at pageObjects.RoundTripPage.enterpaymentdetail(RoundTripPage.java:444)
+	at testcases.RoundTripTest.RoundTripFamilyFriends(RoundTripTest.java:30)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 35 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">testcases.FlightStatusTest#SearchFlightOperation</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">testcases.LoginTest#LoginwithInvalidCredentials1</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">testcases.LoginTest#LoginwithInvalidEmail</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">testcases.LoginTest#LoginwithInvalidMobileCredentials1</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">testcases.LoginTest#LoginwithInvalidMobilenumber</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">testcases.LoginTest#LoginwithInvalidPassword</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">testcases.LoginTest#LoginwithMobileInvalidPassword</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">testcases.LoginTest#LoginwithValidCredentials1</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">testcases.LoginTest#LoginwithValidMobileCredentials1</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">testcases.OnewayTripTest#OnewayStudents</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m14">testcases.RoundTripTest#RoundTripStudents</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m15">testcases.SignupTest#Signup</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>
